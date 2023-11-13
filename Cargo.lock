@@ -133,7 +133,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "product"
+name = "product_index"
 version = "0.1.0"
 dependencies = [
  "anyhow",

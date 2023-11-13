@@ -1,6 +1,6 @@
 use anyhow::Result;
 use clap::Parser;
-use product::product_index_Nd;
+use product_index::product_index_Nd;
 
 use io::Write;
 use std::io;
