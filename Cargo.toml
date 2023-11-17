@@ -3,6 +3,9 @@ name = "product_index"
 version = "0.1.0"
 edition = "2021"
 description = "Convert a cartesian product index into the N indicies of the original arrays"
+repository = "https://github.com/chappertron/product_index"
+keywords = ["cli", "terminal","cartesian","product"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
