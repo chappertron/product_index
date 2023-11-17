@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Convert a cartesian product index into the N indicies of the original arrays"
 repository = "https://github.com/chappertron/product_index"
+homepage = "https://github.com/chappertron/product_index"
 keywords = ["cli", "terminal","cartesian","product"]
 categories = ["command-line-utilities"]
 license = "MIT"
