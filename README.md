@@ -24,9 +24,12 @@ echo "x,y = ${arr1[$i1]}, ${arr2[$i2]}"
 
 ## Installation
 
-Not currently on crates.io. To clone the repo and use `cargo install --path .`
+To install from crates:
+`cargo install product_index`
 
-### Step by step
+To install manually, clone the repo and use `cargo install --path .`
+
+### Step by step Manual Install
 1. If cargo is not installed, install the rust compilers:
     ``` shell
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
