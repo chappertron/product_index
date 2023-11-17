@@ -93,10 +93,8 @@ pub fn product_index_Nd(index: usize, lengths: &[usize]) -> Result<Vec<usize>, I
             // Number of dimensions in the lower dimensional 'slice'
             let div: usize = lengths[dim + 1..].iter().product();
             // Wrap to fit in axis.
-            let mod_op: usize = *len; //lengths[1..=dim].iter().product();
-                                      // dbg!(dim);
-                                      // dbg!(div);
-                                      // dbg!(mod_op);
+            let mod_op: usize = *len;
+
             out_indicies.push(index / div % mod_op);
         }
     }
